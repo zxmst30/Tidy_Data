@@ -63,7 +63,9 @@ The dataset was reshaped using the reshape2 package.
 First, the data frame was melted using the melt function with "Subject" and "Activity"
 as ID variables. 
 Then, the dataset was transformed using the dcast function to generate mean values 
-for the replicates for each subject and activity. 
+for the replicates for each subject and activity. This resulted in a dataframe 
+with 180 observations of 66 variables for each subject and activity (30 subjects
+times 6 activities).
 
 The resulting average dataset as well as the initial tidy data set 
 were exported into the text files "AVGData.txt" and "TidyData.txt" 
