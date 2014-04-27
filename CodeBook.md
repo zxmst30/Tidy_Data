@@ -41,5 +41,15 @@ of 33 accelerometer and gyroscope variables, averaged for each subject and activ
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
+Time domain signals are denoted with the prefix 't'. The acceleration signal was
+separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). 
+Subsequently, the body linear acceleration and angular velocity were derived in time 
+to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude 
+of these three-dimensional signals were calculated using the Euclidean norm 
+(tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals 
+producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, 
+fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
 More details about the data set and transformations as well as other steps 
 performed to generate the clean data set can be found in the README.md file. 
